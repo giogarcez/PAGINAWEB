@@ -1,0 +1,70 @@
+ body {
+  color: white;
+  background: black;
+  margin: 2px;
+}
+
+header{
+  font-size:80px;
+  color: rgb(248,128,149);
+  border-bottom: solid 2px white;
+  margin:20px;
+  padding: 20px;
+   font-family: "Honk", system-ui;
+}
+
+.entrada {
+   font-family: "Gupter", serif;
+  background: black;
+    margin: 20px;
+   padding:20px;
+    font-size: 30px;
+      display: flex;
+      
+}
+
+.descricao{
+  font-size: 20px;
+}
+
+.primeiro{
+  margin-right: 20px;
+}
+
+img{
+  height:200px;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap:10px
+}
+
+p{
+  text-align: justify;
+}
+
+.outros{
+  padding-left: 20px;
+    padding-right: 20px;
+  font-size: 30px;
+  font-family: "Gupter", serif;
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+.outos img:hover{
+  opacity: 1.0;
+  border: solid 3px rgb(211,209,209);
+  border-radius: 20px;
+}
+
+.logo{
+position:relative;
+  top: -40px;
+  left: 500px;
+    width:200px;
+}
